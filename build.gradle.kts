@@ -50,6 +50,7 @@ loom {
 repositories {
     mavenCentral()
     maven("https://repo.spongepowered.org/maven/")
+    maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
 }
 
 dependencies {
@@ -61,6 +62,8 @@ dependencies {
         isTransitive = false
     }
     annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
+
+    modRuntimeOnly("me.djtheredstoner:DevAuth-forge-legacy:1.1.2")
 }
 
 tasks.processResources {
