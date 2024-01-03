@@ -1,7 +1,7 @@
 [
   {
     "modid": "${modid}",
-    "name": "Template Mod",
+    "name": "${modName}",
     "description": "Forge 1.8.9 Template Mod",
     "version": "${version}",
     "mcversion": "${mcversion}",
